@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Todo List</h1>
+    <input type="text" id="task-input" placeholder="Add a new task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="task-list"></ul>
+
+
+    <h2>Simple Form</h2>
+    <form id="simple-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <button type="button" onclick="saveData()">Save</button>
+    </form>
+
+
+    <h3>Bookmarks</h3>
+    <input type="text" id="bookmark-url" placeholder="Add a new bookmark URL">
+    <button onclick="addBookmark()">Add Bookmark</button>
+    <ul id="bookmark-list"></ul>
+
+
+    <h4>Contact List</h4>
+    <form id="contact-form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name">
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <button type="button" onclick="addContact()">Add Contact</button>
+    </form>
+    <ul id="contact-list"></ul>
+    <script src="./script.js"></script>
+</body>
+</html>
